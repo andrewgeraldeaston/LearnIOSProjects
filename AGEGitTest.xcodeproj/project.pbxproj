@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7DD633419A6006300FE992C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD633319A6006300FE992C /* Foundation.framework */; };
+		A7DD633619A6006300FE992C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD633519A6006300FE992C /* CoreGraphics.framework */; };
+		A7DD633819A6006300FE992C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD633719A6006300FE992C /* UIKit.framework */; };
+		A7DD633E19A6006300FE992C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7DD633C19A6006300FE992C /* InfoPlist.strings */; };
+		A7DD634019A6006300FE992C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DD633F19A6006300FE992C /* main.m */; };
+		A7DD634419A6006300FE992C /* AGEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DD634319A6006300FE992C /* AGEAppDelegate.m */; };
+		A7DD634719A6006300FE992C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DD634519A6006300FE992C /* Main.storyboard */; };
+		A7DD634A19A6006300FE992C /* AGEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DD634919A6006300FE992C /* AGEViewController.m */; };
+		A7DD634C19A6006300FE992C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DD634B19A6006300FE992C /* Images.xcassets */; };
+		A7DD635319A6006300FE992C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD635219A6006300FE992C /* XCTest.framework */; };
+		A7DD635419A6006300FE992C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD633319A6006300FE992C /* Foundation.framework */; };
+		A7DD635519A6006300FE992C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD633719A6006300FE992C /* UIKit.framework */; };
+		A7DD635D19A6006300FE992C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7DD635B19A6006300FE992C /* InfoPlist.strings */; };
+		A7DD635F19A6006300FE992C /* AGEGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DD635E19A6006300FE992C /* AGEGitTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7DD635619A6006300FE992C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DD632819A6006300FE992C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DD632F19A6006300FE992C;
+			remoteInfo = AGEGitTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7DD633019A6006300FE992C /* AGEGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGEGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DD633319A6006300FE992C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7DD633519A6006300FE992C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7DD633719A6006300FE992C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7DD633B19A6006300FE992C /* AGEGitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AGEGitTest-Info.plist"; sourceTree = "<group>"; };
+		A7DD633D19A6006300FE992C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7DD633F19A6006300FE992C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7DD634119A6006300FE992C /* AGEGitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGEGitTest-Prefix.pch"; sourceTree = "<group>"; };
+		A7DD634219A6006300FE992C /* AGEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGEAppDelegate.h; sourceTree = "<group>"; };
+		A7DD634319A6006300FE992C /* AGEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGEAppDelegate.m; sourceTree = "<group>"; };
+		A7DD634619A6006300FE992C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7DD634819A6006300FE992C /* AGEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGEViewController.h; sourceTree = "<group>"; };
+		A7DD634919A6006300FE992C /* AGEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGEViewController.m; sourceTree = "<group>"; };
+		A7DD634B19A6006300FE992C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7DD635119A6006300FE992C /* AGEGitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGEGitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DD635219A6006300FE992C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A7DD635A19A6006300FE992C /* AGEGitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AGEGitTestTests-Info.plist"; sourceTree = "<group>"; };
+		A7DD635C19A6006300FE992C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7DD635E19A6006300FE992C /* AGEGitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGEGitTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7DD632D19A6006300FE992C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DD633619A6006300FE992C /* CoreGraphics.framework in Frameworks */,
+				A7DD633819A6006300FE992C /* UIKit.framework in Frameworks */,
+				A7DD633419A6006300FE992C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DD634E19A6006300FE992C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DD635319A6006300FE992C /* XCTest.framework in Frameworks */,
+				A7DD635519A6006300FE992C /* UIKit.framework in Frameworks */,
+				A7DD635419A6006300FE992C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7DD632719A6006300FE992C = {
+			isa = PBXGroup;
+			children = (
+				A7DD633919A6006300FE992C /* AGEGitTest */,
+				A7DD635819A6006300FE992C /* AGEGitTestTests */,
+				A7DD633219A6006300FE992C /* Frameworks */,
+				A7DD633119A6006300FE992C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7DD633119A6006300FE992C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD633019A6006300FE992C /* AGEGitTest.app */,
+				A7DD635119A6006300FE992C /* AGEGitTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DD633219A6006300FE992C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD633319A6006300FE992C /* Foundation.framework */,
+				A7DD633519A6006300FE992C /* CoreGraphics.framework */,
+				A7DD633719A6006300FE992C /* UIKit.framework */,
+				A7DD635219A6006300FE992C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7DD633919A6006300FE992C /* AGEGitTest */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD634219A6006300FE992C /* AGEAppDelegate.h */,
+				A7DD634319A6006300FE992C /* AGEAppDelegate.m */,
+				A7DD634519A6006300FE992C /* Main.storyboard */,
+				A7DD634819A6006300FE992C /* AGEViewController.h */,
+				A7DD634919A6006300FE992C /* AGEViewController.m */,
+				A7DD634B19A6006300FE992C /* Images.xcassets */,
+				A7DD633A19A6006300FE992C /* Supporting Files */,
+			);
+			path = AGEGitTest;
+			sourceTree = "<group>";
+		};
+		A7DD633A19A6006300FE992C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD633B19A6006300FE992C /* AGEGitTest-Info.plist */,
+				A7DD633C19A6006300FE992C /* InfoPlist.strings */,
+				A7DD633F19A6006300FE992C /* main.m */,
+				A7DD634119A6006300FE992C /* AGEGitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7DD635819A6006300FE992C /* AGEGitTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD635E19A6006300FE992C /* AGEGitTestTests.m */,
+				A7DD635919A6006300FE992C /* Supporting Files */,
+			);
+			path = AGEGitTestTests;
+			sourceTree = "<group>";
+		};
+		A7DD635919A6006300FE992C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD635A19A6006300FE992C /* AGEGitTestTests-Info.plist */,
+				A7DD635B19A6006300FE992C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7DD632F19A6006300FE992C /* AGEGitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DD636219A6006300FE992C /* Build configuration list for PBXNativeTarget "AGEGitTest" */;
+			buildPhases = (
+				A7DD632C19A6006300FE992C /* Sources */,
+				A7DD632D19A6006300FE992C /* Frameworks */,
+				A7DD632E19A6006300FE992C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGEGitTest;
+			productName = AGEGitTest;
+			productReference = A7DD633019A6006300FE992C /* AGEGitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7DD635019A6006300FE992C /* AGEGitTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DD636519A6006300FE992C /* Build configuration list for PBXNativeTarget "AGEGitTestTests" */;
+			buildPhases = (
+				A7DD634D19A6006300FE992C /* Sources */,
+				A7DD634E19A6006300FE992C /* Frameworks */,
+				A7DD634F19A6006300FE992C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DD635719A6006300FE992C /* PBXTargetDependency */,
+			);
+			name = AGEGitTestTests;
+			productName = AGEGitTestTests;
+			productReference = A7DD635119A6006300FE992C /* AGEGitTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DD632819A6006300FE992C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AGE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "IOS7Course-age";
+				TargetAttributes = {
+					A7DD635019A6006300FE992C = {
+						TestTargetID = A7DD632F19A6006300FE992C;
+					};
+				};
+			};
+			buildConfigurationList = A7DD632B19A6006300FE992C /* Build configuration list for PBXProject "AGEGitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7DD632719A6006300FE992C;
+			productRefGroup = A7DD633119A6006300FE992C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DD632F19A6006300FE992C /* AGEGitTest */,
+				A7DD635019A6006300FE992C /* AGEGitTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7DD632E19A6006300FE992C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DD634C19A6006300FE992C /* Images.xcassets in Resources */,
+				A7DD633E19A6006300FE992C /* InfoPlist.strings in Resources */,
+				A7DD634719A6006300FE992C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DD634F19A6006300FE992C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DD635D19A6006300FE992C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7DD632C19A6006300FE992C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DD634419A6006300FE992C /* AGEAppDelegate.m in Sources */,
+				A7DD634A19A6006300FE992C /* AGEViewController.m in Sources */,
+				A7DD634019A6006300FE992C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DD634D19A6006300FE992C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DD635F19A6006300FE992C /* AGEGitTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7DD635719A6006300FE992C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DD632F19A6006300FE992C /* AGEGitTest */;
+			targetProxy = A7DD635619A6006300FE992C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7DD633C19A6006300FE992C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DD633D19A6006300FE992C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7DD634519A6006300FE992C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DD634619A6006300FE992C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7DD635B19A6006300FE992C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DD635C19A6006300FE992C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7DD636019A6006300FE992C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7DD636119A6006300FE992C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7DD636319A6006300FE992C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGEGitTest/AGEGitTest-Prefix.pch";
+				INFOPLIST_FILE = "AGEGitTest/AGEGitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7DD636419A6006300FE992C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGEGitTest/AGEGitTest-Prefix.pch";
+				INFOPLIST_FILE = "AGEGitTest/AGEGitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7DD636619A6006300FE992C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AGEGitTest.app/AGEGitTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGEGitTest/AGEGitTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AGEGitTestTests/AGEGitTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A7DD636719A6006300FE992C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AGEGitTest.app/AGEGitTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGEGitTest/AGEGitTest-Prefix.pch";
+				INFOPLIST_FILE = "AGEGitTestTests/AGEGitTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7DD632B19A6006300FE992C /* Build configuration list for PBXProject "AGEGitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DD636019A6006300FE992C /* Debug */,
+				A7DD636119A6006300FE992C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DD636219A6006300FE992C /* Build configuration list for PBXNativeTarget "AGEGitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DD636319A6006300FE992C /* Debug */,
+				A7DD636419A6006300FE992C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7DD636519A6006300FE992C /* Build configuration list for PBXNativeTarget "AGEGitTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DD636619A6006300FE992C /* Debug */,
+				A7DD636719A6006300FE992C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7DD632819A6006300FE992C /* Project object */;
+}
