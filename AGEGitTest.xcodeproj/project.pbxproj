@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7ABE3D919A6096A00B8D959 /* AGETestGITadd.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ABE3D819A6096A00B8D959 /* AGETestGITadd.m */; };
 		A7DD633419A6006300FE992C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD633319A6006300FE992C /* Foundation.framework */; };
 		A7DD633619A6006300FE992C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD633519A6006300FE992C /* CoreGraphics.framework */; };
 		A7DD633819A6006300FE992C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DD633719A6006300FE992C /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7ABE3D719A6096A00B8D959 /* AGETestGITadd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGETestGITadd.h; sourceTree = "<group>"; };
+		A7ABE3D819A6096A00B8D959 /* AGETestGITadd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGETestGITadd.m; sourceTree = "<group>"; };
 		A7DD633019A6006300FE992C /* AGEGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGEGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DD633319A6006300FE992C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7DD633519A6006300FE992C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 		A7DD632719A6006300FE992C = {
 			isa = PBXGroup;
 			children = (
+				A7ABE3D719A6096A00B8D959 /* AGETestGITadd.h */,
+				A7ABE3D819A6096A00B8D959 /* AGETestGITadd.m */,
 				A7DD633919A6006300FE992C /* AGEGitTest */,
 				A7DD635819A6006300FE992C /* AGEGitTestTests */,
 				A7DD633219A6006300FE992C /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7ABE3D919A6096A00B8D959 /* AGETestGITadd.m in Sources */,
 				A7DD634419A6006300FE992C /* AGEAppDelegate.m in Sources */,
 				A7DD634A19A6006300FE992C /* AGEViewController.m in Sources */,
 				A7DD634019A6006300FE992C /* main.m in Sources */,
@@ -457,6 +463,7 @@
 				A7DD636419A6006300FE992C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7DD636519A6006300FE992C /* Build configuration list for PBXNativeTarget "AGEGitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				A7DD636719A6006300FE992C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
